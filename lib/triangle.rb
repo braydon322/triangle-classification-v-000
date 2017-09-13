@@ -1,5 +1,4 @@
 class Triangle
-  # write code here
   attr_accessor :equilateral, :isosceles, :scalene, :kind
 
   def initialize(one, two, three)
@@ -23,5 +22,4 @@ class Triangle
 end
 
 class TriangleError < StandardError
-
 end
